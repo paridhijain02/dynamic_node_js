@@ -1,0 +1,21 @@
+<div class="container" id="services_id">
+    <h1 class="text-center pt-5">Services we provide</h1>
+    <div class="row">
+        {{#each services}}
+        <div class="col-md-4 py-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class="container text-center ">
+                        <i class="{{this.icon}}"></i>
+                    </div>
+                    <h5 class="card-title">{{this.title}}</h5>
+                    <p>{{this.subTitle}}</p>
+                     {{#each this.links}}
+                        <a href="{{this.url}}" class="mr-3">{{this.label}}</a>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>

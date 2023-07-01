@@ -1,0 +1,19 @@
+body{
+    background-color: darkslategray;
+}
+.slider-image{
+    height: 500px!important;
+    object-fit:cover;
+}
+.service-icon{
+    font-size: 50px;
+}
+.form-background{
+    background-color: beige!important;
+}
+.background-footer{
+    background-color: beige!important;
+}
+.nav-colour{
+    background-color: darkolivegreen!important;
+}
